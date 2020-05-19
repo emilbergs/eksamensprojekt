@@ -252,7 +252,7 @@ h1 {
 
 #flex4 {
     background-color: #A9DFED;
-    padding: 20%;
+    padding: 6%;
 }
 
 .headlinerText {
@@ -260,6 +260,17 @@ h1 {
     padding: 10% 25% 10% 25%;
 }
 
+#flex4 img {
+    width: 100%;
+}
+
+#flex5 {
+    background-color: #6A74B7;
+    padding: 6%;
+}
+#flex5 img {
+    width: 100%
+}
 /* MAIN ends */
 /* FOOTER */
 
