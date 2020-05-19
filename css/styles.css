@@ -237,6 +237,29 @@ h1 {
     margin-bottom: 2%;
 }
 
+#flex3 {
+    background-color: #EBD6E8;
+    padding: 20%;
+}
+
+#demo {
+    font-family: rubik, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 3.5em;
+    margin: 10%;
+}
+
+#flex4 {
+    background-color: #A9DFED;
+    padding: 20%;
+}
+
+.headlinerText {
+    background-color: white;
+    padding: 10% 25% 10% 25%;
+}
+
 /* MAIN ends */
 /* FOOTER */
 
