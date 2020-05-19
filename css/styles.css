@@ -51,6 +51,12 @@ table {
 /* BODY */
 
 
+#wrapper {
+    width: 95%;
+    padding: 2.5%;
+    padding-top: 0;
+}
+
 /* BODY ends */
 
 /* FONTS */
@@ -59,7 +65,7 @@ h1 {
     font-weight: 900;
     font-style: normal;
 }
-p {
+p, h2, h3, h4 {
     font-family: roboto, sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -72,10 +78,10 @@ header {
     background-color: #1D1F22;
     color: white;
     position: fixed;
-    height: 40px;
+    width: 95%;
 }
 Header img {
-    width: 50%;
+    width: 40%;
     margin: 5px;
 }
 
@@ -91,23 +97,60 @@ li {
     margin-right: 10px;
 }
 div .burger {
-    width: 10px;
-    height: 10px;
+    width: 7px;
+    height: 7px;
     background-color: white;
     margin: 5px 0;
     border-radius: 50px;
 }
 #burgerbar {
     position: absolute;
-    right: 5px;
-    top: 5px;
+    right: 17.5%;
+    top: 22%;
+}
+#pclogo {
+    display: none;
+}
+#mobillogo {
+    width: 17%;
+    margin: 0 0 0 40%;
+    border-radius: 50%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
 }
 
 /*
 /* MAIN */
-
+main {
+    padding-top: 59.969px;
+}
+#mobile-background {
+    width: 100%;
+}
 /* MAIN ends */
+/* FOOTER */
 
+footer{
+    background-color: #1d1F22;
+    color: white;
+    padding: 10%;
+}
+#flex2 {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+#flex2 img {
+    width: 25%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+#middle {
+    width: 80%;
+    margin: 0 auto;
+}
+/* FOOTER ends */
 
 /* Media queries */
 @media screen and (min-width: 1280px) {
@@ -116,6 +159,12 @@ div .burger {
     }
     #flex1 {
         display: flex;
+    }
+    #mobillogo {
+        display: none;
+    }
+    #pclogo {
+        display: block;
     }
 }
 
