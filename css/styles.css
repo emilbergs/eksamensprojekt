@@ -46,3 +46,78 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+/* BODY */
+
+
+/* BODY ends */
+
+/* FONTS */
+h1 {
+    font-family: rubik, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+p {
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* FONTS END */
+/* HEADER */
+header {
+    background-color: #1D1F22;
+    color: white;
+    position: fixed;
+    height: 40px;
+}
+Header img {
+    width: 50%;
+    margin: 5px;
+}
+
+#flex1 {
+    display: none;
+    flex-direction: row;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+li {
+    margin-right: 10px;
+}
+div .burger {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    margin: 5px 0;
+    border-radius: 50px;
+}
+#burgerbar {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+
+/*
+/* MAIN */
+
+/* MAIN ends */
+
+
+/* Media queries */
+@media screen and (min-width: 1280px) {
+    #burgerbar {
+        display: none;
+    }
+    #flex1 {
+        display: flex;
+    }
+}
+
+
+
