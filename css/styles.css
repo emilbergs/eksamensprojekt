@@ -238,9 +238,14 @@ h1 {
     margin-bottom: 2%;
 }
 
+
 #flex3 {
     background-color: #EBD6E8;
-    padding: 20%;
+    padding: 15%;
+}
+
+#billede2021 {
+    margin: 0 0 3% 0;
 }
 
 #demo {
@@ -253,12 +258,28 @@ h1 {
 
 #flex4 {
     background-color: #A9DFED;
-    padding: 6%;
+    padding: 6% 6% 10% 6%;
 }
 
 .headlinerText {
     background-color: white;
-    padding: 10% 25% 10% 25%;
+    padding: 4%;
+}
+
+.headlinerText p, h2, h4 {
+    text-align: left;
+}
+
+.headlinerText h2 {
+    margin: 0 0 4% 0;
+}
+
+.headlinerText p {
+   margin: 0 0 4% 0; 
+}
+
+.headlinerText h2, h4 {
+    font-weight: bold;
 }
 
 #flex4 img {
@@ -267,7 +288,7 @@ h1 {
 
 #flex5 {
     background-color: #6A74B7;
-    padding: 6%;
+    padding: 6% 6% 10% 6%;
 }
 #flex5 img {
     width: 100%
@@ -291,7 +312,7 @@ footer {
 }
 
 #fotlinks {
-    margin: 5% 0 0 0;
+    margin: 8% 0 0 0;
 }
 
 #flex2 {
@@ -315,7 +336,7 @@ footer {
  footer #copyright {
     width: 80%;
     text-align: center;
-     padding-top: 5%;
+     padding-top: 8%;
 }
 
 /* FOOTER ends */
