@@ -282,6 +282,18 @@ footer {
     text-align: center;
 }
 
+#infofot {
+    text-align: left;
+}
+
+#infofot h4 {
+    font-weight: bolder;
+}
+
+#fotlinks {
+    margin: 5% 0 0 0;
+}
+
 #flex2 {
     display: flex;
     width: 80%;
