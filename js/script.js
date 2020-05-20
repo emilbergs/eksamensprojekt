@@ -31,13 +31,23 @@ let x = setInterval(function() {
 // BURGERMENU
 let burgerBar = document.getElementById("burgerbar");
 let menuBar = document.getElementById("burgermenu");
+let closeMenu = document.getElementById("closemenu");
 
-function myFunction(){
+burgerBar.addEventListener("click", toggleMenu);
+
+function toggleMenu() {
     menuBar.style.display = "block";
+    burgerBar.style.display = "none";
+    closeMenu.style.display = "block";
+};
+
+closeMenu.addEventListener("click", noToggleMenu);
+
+function noToggleMenu (){
+    menuBar.style.display = "none";
+    burgerBar.style.display = "block";
+    closeMenu.style.display = "none";
 }
-
-burgerBar.addEventListener("onclick", myFunction);
-
 
 
 
