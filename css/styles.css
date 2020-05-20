@@ -200,8 +200,11 @@ Header img {
     
 }
 .tickets {
-    border: 3px solid;
+    border: 2px solid;
     border-color: #ffffff;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 2%;
 }
 #flex1 {
     display: none;
@@ -244,7 +247,7 @@ div .burger {
 
 #burgermenu li {
     font-size: 3em;
-    margin-bottom: 7.5%;
+    margin-bottom: 7%;
 }
 
 #burgermenu {
@@ -444,7 +447,7 @@ footer #copyright {
     video {
         display: block;
         width: 100%;
-        margin-bottom: 
+        margin-bottom: 5%;
         
     }
     #burgerbar {
@@ -520,6 +523,10 @@ footer #copyright {
     }
     #burgermenu li {
         padding-bottom: 1%;
+    }
+    .tickets {
+        margin: 0;
+        padding: 0;
     }
 }
 
