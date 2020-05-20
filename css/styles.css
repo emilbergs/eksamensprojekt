@@ -200,10 +200,6 @@ Header img {
     right: 5px;
 }
 
-li {
-    margin-right: 10px;
-}
-
 div .burger {
     width: 7px;
     height: 7px;
@@ -238,7 +234,7 @@ div .burger {
 
 #burgermenu li {
     font-size: 3em;
-    padding: 3.95%;
+    margin-top: 9.3%;
 }
 
 #burgermenu {
@@ -268,10 +264,26 @@ div .burger {
 	-webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	        animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
+
+#burgermenu img {
+    width: 50%;
+}
+
+#flexicon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#instalogo {
+    margin-left: 10%;
+}
+
+
 /*
 /* MAIN */
 main {
-    padding-top: 59.969px;
+    padding-top: 51.6px;
 }
 
 #mobile-background {
@@ -392,13 +404,20 @@ footer #copyright {
 /* FOOTER ends */
 
 /* Media queries */
-@media screen and (min-width: 1280px) {
+
+
+@media screen and (min-width: 700px) {
     #burgerbar {
         display: none;
     }
 
     #flex1 {
         display: flex;
+    }
+    
+    #flex1 img {
+        width: 20%;
+        margin: 0;
     }
 
     #mobillogo {
@@ -407,8 +426,15 @@ footer #copyright {
 
     #pclogo {
         display: block;
+        width: 40%;
+    }
+    
+    header {
+        margin: auto;
+        padding: auto; 
     }
 }
+
 
 
 
