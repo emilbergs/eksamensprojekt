@@ -191,7 +191,18 @@ Header img {
     width: 40%;
     margin: 5px;
 }
-
+.stroke {
+	color: #1D1F22;
+	-webkit-text-stroke: 2px white;
+    letter-spacing: 3px; 
+}
+.stroke:hover {
+    
+}
+.tickets {
+    border: 3px solid;
+    border-color: #ffffff;
+}
 #flex1 {
     display: none;
     flex-direction: row;
@@ -409,6 +420,11 @@ footer #copyright {
 /* FOOTER ends */
 
 /* Media queries */
+@media screen and (min-width: 0px) {
+    video {
+        display: none;
+    }
+}
 @media screen and (min-height: 700px) {
     #burgermenu li {
         padding: 0.75%;
@@ -422,6 +438,15 @@ footer #copyright {
 }
 
 @media screen and (min-width: 700px) {
+    #mobile-background {
+        display: none;
+    }
+    video {
+        display: block;
+        width: 100%;
+        margin-bottom: 
+        
+    }
     #burgerbar {
         display: block;
     }
@@ -480,12 +505,21 @@ footer #copyright {
     #burgermenu {
         width: 40%;
         font-size: 0.5em;
+        position: absolute;
+        right: 0%;
+        top: 5%;
+        background-color: #1D1F22;
+        margin-top: 2.5%;
+        /*border-radius: 0px 0px 25px 25px;*/
     }
     #burgermenu li {
         margin-bottom: 0;
     }
     .listItems {
         margin-top: 0;
+    }
+    #burgermenu li {
+        padding-bottom: 1%;
     }
 }
 
