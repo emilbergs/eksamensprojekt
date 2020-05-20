@@ -1,33 +1,39 @@
-// Set the date we're counting down to
+//sætter datoen vi tæller til
 let countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
 
-// Update the count down every 1 second
-let x = setInterval(function() {
 
-  // Get today's date and time
-  let now = new Date().getTime();
+// opdaterer countdown hvert sekund
+let x = setInterval(function () {
 
-  // Find the distance between now and the count down date
-  let distance = countDownDate - now;
 
-  // Time calculations for days, hours, minutes and seconds
-  let days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    //Få idags dato og tid
+    let now = new Date().getTime();
 
-  // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
 
-  // If the count down is finished, write some text
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "TICKETS ARE ON SALE!";
-  }
+    //Finder tidsintervallet imellem nu og vores dato vi tæller ned til
+    let distance = countDownDate - now;
+
+
+    //Tids udregning for dage, timer, minutter og sekunder
+    let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+
+    //Display vores resultat i elementet med id="demo"
+    document.getElementById("demo").innerHTML = days + "d " + hours + "h " +
+        minutes + "m " + seconds + "s ";
+
+
+    // Hvis vores countdown er slut, skriv lidt tekst
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "TICKETS ARE ON SALE!";
+    }
 }, 1000);
 
-
+//countdown slut
 // BURGERMENU
 let burgerBar = document.getElementById("burgerbar");
 let menuBar = document.getElementById("burgermenu");
@@ -43,21 +49,19 @@ function toggleMenu() {
 
 closeMenu.addEventListener("click", noToggleMenu);
 
-function noToggleMenu (){
+function noToggleMenu() {
     menuBar.style.display = "none";
     burgerBar.style.display = "block";
     closeMenu.style.display = "none";
 }
-
+//burgermenu slut
 //logo fade in
 
 let mobilLogo = document.getElementById("mobillogo");
 burgerBar.addEventListener("click", fadeIn);
 
-function fadeIn(){
+function fadeIn() {
     mobilLogo.classList.add("fade-in");
 }
 
-
-
-
+//logo fade in slut
