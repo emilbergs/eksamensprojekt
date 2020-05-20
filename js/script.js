@@ -23,6 +23,24 @@ let x = setInterval(function() {
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("demo").innerHTML = "TICKETS ARE ON SALE!";
   }
 }, 1000);
+
+
+// BURGERMENU
+let burgerBar = document.getElementById("burgerbar");
+let menuBar = document.getElementById("burgermenu");
+
+function myFunction(){
+    menuBar.style.display = "block";
+}
+
+burgerBar.addEventListener("onclick", myFunction);
+
+
+
+
+
+
+
