@@ -58,6 +58,7 @@ function noToggleMenu() {
 //logo fade in
 
 let mobilLogo = document.getElementById("mobillogo");
+
 burgerBar.addEventListener("click", fadeIn);
 
 function fadeIn() {

@@ -195,7 +195,6 @@ Header img {
 #flex1 {
     display: none;
     flex-direction: row;
-    position: absolute;
     top: 5px;
     right: 5px;
 }
@@ -210,8 +209,8 @@ div .burger {
 
 #burgerbar {
     position: absolute;
-    right: 17.5%;
-    top: 7px;
+    right: 7.6%;
+    top: 15px;
     background-color: #1D1F22;
     border: none;
     color: white;
@@ -234,7 +233,7 @@ div .burger {
 
 #burgermenu li {
     font-size: 3em;
-    margin-bottom: 5%;
+    margin-bottom: 7.5%;
 }
 
 #burgermenu {
@@ -256,13 +255,15 @@ div .burger {
     cursor: pointer;
     font-size: 2em;
 }
+
 .fade-in-top {
-	-webkit-animation: fade-in-top 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: fade-in-top 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    -webkit-animation: fade-in-top 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: fade-in-top 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
+
 .fade-in {
-	-webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 #burgermenu img {
@@ -280,7 +281,11 @@ div .burger {
 }
 
 .listItems {
-    margin-top: 9.8%;
+    margin-top: 7.5%;
+}
+
+#flex38 {
+    display: flex;
 }
 
 /*
@@ -393,10 +398,7 @@ footer {
     margin-bottom: 15px;
 }
 
-#middle {
-    width: 80%;
-    margin: 0 auto;
-}
+
 
 footer #copyright {
     width: 80%;
@@ -407,24 +409,36 @@ footer #copyright {
 /* FOOTER ends */
 
 /* Media queries */
+@media screen and (min-height: 700px) {
+    #burgermenu li {
+        padding: 0.75%;
+    }
+}
 
+@media screen and (min-height: 800px) {
+    #burgermenu li {
+        padding: 2.9%;
+    }
+}
 
 @media screen and (min-width: 700px) {
     #burgerbar {
-        display: none;
+        display: block;
     }
 
     #flex1 {
-        display: flex;
+        display: none;
+        flex-direction: row;
+        width: 50%;
     }
-    
+
     #flex1 img {
-        width: 20%;
+        width: 75%;
         margin: 0;
     }
-    
+
     #flex1 li {
-        margin: 0 5% 0 0;
+        margin: 0 5px 0 0;
     }
 
     #mobillogo {
@@ -433,20 +447,46 @@ footer #copyright {
 
     #pclogo {
         display: block;
+        width: 40%;
+        margin: 2%;
+    }
+
+
+    #flex38 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: baseline;
+    }
+
+    #flex1 li a img {
         width: 30%;
     }
-    
-    header img {
-        margin: 0;
-        position: absolute;
-        left: 10px;
-        top: 10px;
+
+    div .burger {
+        width: 40px;
+        height: 7px;
+        background-color: white;
+        margin: 5px 0;
+        border-radius: 50px;
+    }
+
+    #burgerbar {
+        margin: 2%;
+        right: 2%;
+        top: 2%;
     }
     
-    nav {
-        margin: 10%;
+    #burgermenu {
+        width: 40%;
+        font-size: 0.5em;
     }
-    
+    #burgermenu li {
+        margin-bottom: 0;
+    }
+    .listItems {
+        margin-top: 0;
+    }
 }
 
 
@@ -466,20 +506,23 @@ footer #copyright {
  * ----------------------------------------
  */
 @-webkit-keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
+
 @keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 /* ----------------------------------------------
@@ -495,26 +538,29 @@ footer #copyright {
  * ----------------------------------------
  */
 @-webkit-keyframes fade-in-top {
-  0% {
-    -webkit-transform: translateY(-50px);
-            transform: translateY(-50px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-    opacity: 1;
-  }
+    0% {
+        -webkit-transform: translateY(-50px);
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
+
 @keyframes fade-in-top {
-  0% {
-    -webkit-transform: translateY(-50px);
-            transform: translateY(-50px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-    opacity: 1;
-  }
+    0% {
+        -webkit-transform: translateY(-50px);
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
