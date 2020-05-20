@@ -49,7 +49,14 @@ function noToggleMenu (){
     closeMenu.style.display = "none";
 }
 
+//logo fade in
 
+let mobilLogo = document.getElementById("mobillogo");
+burgerBar.addEventListener("click", fadeIn);
+
+function fadeIn(){
+    mobilLogo.classList.add("fade-in");
+}
 
 
 
