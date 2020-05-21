@@ -456,12 +456,16 @@ footer #copyright {
 /* FOOTER ends */
 
 /* Media queries */
+/* MOBILE */
 @media screen and (min-width: 0px) {
     video {
         display: none;
     }
 
     .pcthings {
+        display: none;
+    }
+    .tabletthings {
         display: none;
     }
 }
@@ -477,7 +481,7 @@ footer #copyright {
         padding: 2.9%;
     }
 }
-
+/* TABLET */
 @media screen and (min-width: 700px) {
     .mobilethings {
         display: none;
@@ -487,7 +491,7 @@ footer #copyright {
         display: none;
     }
 
-    .pcthings {
+    .tabletthings {
         display: block;
     }
 
@@ -561,7 +565,6 @@ footer #copyright {
         top: 5%;
         background-color: #1D1F22;
         margin-top: 2.5%;
-        /*border-radius: 0px 0px 25px 25px;*/
     }
 
     #burgermenu li {
@@ -657,8 +660,9 @@ footer #copyright {
     }
 
     #section6 {
-        background-image: url(../images/ppattern.png);
-        height: 388px;
+        background-image: url(../images/ppattern1.png);
+        background-size:cover;
+        height: 250px;
         width: 100%;
         margin-bottom: 15%
     }
@@ -668,19 +672,76 @@ footer #copyright {
         font-weight: 900;
         font-style: normal;
         color: #ffffff;
-        margin-top: 130px;
-        font-size: 3em;
+        margin-top: 85px;
+        font-size: 2em;
         background-color: #D54D59;
-        padding: 1% 15% 1% 15%;
+        padding: 2% 15% 2% 15%;
         border: 0;
         border-radius: 25px
     }
     #flex3 {
         padding: 5%;
     }
+    #flex7 {
+        display: flex;
+        flex-direction: row;
+    }
+    #infofot {
+        display: flex;
+        flex-direction: row;
+    }
+    #fotlinks {
+        margin: 0
+    }
+    footer {
+        background-image: url(../images/logo-pc.png);
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding: 5%;
+    }
+    #flex2 img {
+        margin: 0 40% 0 0;
+    }
+    footer #copyright {
+        width: 60%;
+        padding-top: 6%;
+    }
 }
 
-
+@media screen and (min-width: 1200px) {
+    #wrapper {
+        padding: 0 1% 1% 1%;
+        width: 98%;
+    }
+    header {
+        width: 98%;
+    }
+    #pclogo {
+        width: 20%;
+        margin: 1%;
+    }
+    #burgerbar {
+        display: none;
+    }
+    #flex1 {
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 40%;
+        right: 5%;
+        font-size: 1.5em;
+    }
+    #flex1 li a img {
+        width: 66px;
+        position: relative;
+        top: -25%;
+    }
+    #flex1 li {
+        margin: 0 25px 0 0;
+    }
+    
+}
 
 
 
