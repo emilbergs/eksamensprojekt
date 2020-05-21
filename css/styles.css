@@ -152,6 +152,14 @@ h1 {
     font-family: rubik, sans-serif;
     font-weight: 900;
     font-style: normal;
+    font-size: 1.7em;
+    color: #1D1F22;
+}
+
+h2 {
+    font-family: rubik, sans-serif;
+    font-weight: 900;
+    font-style: normal;
     font-size: 1.5em;
     color: #1D1F22;
 }
@@ -163,7 +171,6 @@ li {
 }
 
 p,
-h2,
 h3,
 h4 {
     font-family: roboto, sans-serif;
@@ -171,12 +178,7 @@ h4 {
     font-style: normal;
 }
 
-h3 {
-    font-family: rubik, sans-serif;
-    color: white;
-    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-    font-size: 3em;
-}
+
 
 /* FONTS END */
 /* HEADER */
@@ -191,14 +193,15 @@ Header img {
     width: 40%;
     margin: 5px;
 }
+
 .stroke {
-	color: #1D1F22;
-	-webkit-text-stroke: 2px white;
-    letter-spacing: 3px; 
+    color: #1D1F22;
+    -webkit-text-stroke: 2px white;
+    letter-spacing: 3px;
 }
-.stroke:hover {
-    
-}
+
+.stroke:hover {}
+
 .tickets {
     border: 2px solid;
     border-color: #ffffff;
@@ -206,6 +209,7 @@ Header img {
     margin-right: 5%;
     padding-top: 2%;
 }
+
 #flex1 {
     display: none;
     flex-direction: row;
@@ -318,8 +322,8 @@ h1 {
 }
 
 
-#flex3 {
-    background-color: #EBD6E8;
+.flex3 {
+    background-color: #ffffff;
     padding: 15%;
 }
 
@@ -327,7 +331,7 @@ h1 {
     margin: 0 0 3% 0;
 }
 
-#demo {
+.demo {
     font-family: rubik, sans-serif;
     font-weight: 900;
     font-style: normal;
@@ -335,8 +339,8 @@ h1 {
     margin: 10%;
 }
 
-#flex4 {
-    background-color: #A9DFED;
+#section2 {
+    background-color: #EBD6E8;
     padding: 6% 6% 10% 6%;
 }
 
@@ -346,12 +350,12 @@ h1 {
 }
 
 .headlinerText p,
-h2,
+h3,
 h4 {
     text-align: left;
 }
 
-.headlinerText h2 {
+.headlinerText h3 {
     margin: 0 0 4% 0;
 }
 
@@ -359,22 +363,51 @@ h4 {
     margin: 0 0 4% 0;
 }
 
-.headlinerText h2,
+.headlinerText h3,
 h4 {
     font-weight: bold;
 }
 
-#flex4 img {
+#section2 img {
     width: 100%;
 }
 
-#flex5 {
+#section3 {
+    background-color: #A9DFED;
+    padding: 6% 6% 10% 6%;
+}
+
+#section3 img {
+    width: 100%
+}
+
+#section4 {
     background-color: #6A74B7;
     padding: 6% 6% 10% 6%;
 }
 
-#flex5 img {
+#section4 img {
     width: 100%
+}
+
+#flex4 {
+    display: flex;
+    flex-direction: row;
+}
+
+#flex5 {
+    display: flex;
+    flex-direction: row;
+}
+
+#flex6 {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.marginimages {
+    margin: 2.5% 2.5% 0 2.5%;
 }
 
 /* MAIN ends */
@@ -427,7 +460,12 @@ footer #copyright {
     video {
         display: none;
     }
+
+    .pcthings {
+        display: none;
+    }
 }
+
 @media screen and (min-height: 700px) {
     #burgermenu li {
         padding: 0.75%;
@@ -441,15 +479,25 @@ footer #copyright {
 }
 
 @media screen and (min-width: 700px) {
+    .mobilethings {
+        display: none;
+    }
+
     #mobile-background {
         display: none;
     }
+
+    .pcthings {
+        display: block;
+    }
+
     video {
         display: block;
         width: 100%;
         margin-bottom: 5%;
-        
+
     }
+
     #burgerbar {
         display: block;
     }
@@ -504,7 +552,7 @@ footer #copyright {
         right: 2%;
         top: 2%;
     }
-    
+
     #burgermenu {
         width: 40%;
         font-size: 0.5em;
@@ -515,18 +563,120 @@ footer #copyright {
         margin-top: 2.5%;
         /*border-radius: 0px 0px 25px 25px;*/
     }
+
     #burgermenu li {
         margin-bottom: 0;
     }
+
     .listItems {
         margin-top: 0;
     }
+
     #burgermenu li {
         padding-bottom: 1%;
     }
+
     .tickets {
         margin: 0;
         padding: 0;
+    }
+
+    #section2 #flex4 {
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    #section3 #flex5 {
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    #section4 #flex6 {
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    #section2 #banner2 {
+        width: 45px;
+        height: 200px;
+        margin-top: 3%;
+    }
+
+    #section2 #banner1 {
+        width: 45px;
+        height: 200px;
+        margin-top: 4%;
+        margin-left: 1.5%;
+    }
+
+    #section3 #banner4 {
+        width: 45px;
+        height: 125px;
+        margin-top: 3%;
+    }
+
+    #section3 #banner3 {
+        width: 45px;
+        height: 125px;
+        margin-top: 3%;
+        margin-left: 1.5%;
+    }
+
+    #section4 #banner6 {
+        width: 45px;
+        height: 200px;
+        margin-top: 3%;
+    }
+
+    #section4 #banner5 {
+        width: 45px;
+        height: 200px;
+        margin-top: 3%;
+        margin-left: 1.5%;
+    }
+
+    #section2 {
+        background-color: #EBD6E8;
+        padding: 6% 2% 6% 2%;
+    }
+
+    #section3 {
+        background-color: #A9DFED;
+        padding: 6% 2% 6% 2%;
+    }
+
+    #section4 {
+        background-color: #6A74B7;
+        padding: 6% 2% 10% 2%;
+    }
+
+    #section6 {
+        background-image: url(../images/ppattern.png);
+        height: 388px;
+        width: 100%;
+        margin-bottom: 15%
+    }
+
+    #buyme {
+        font-family: rubik, sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        color: #ffffff;
+        margin-top: 130px;
+        font-size: 3em;
+        background-color: #D54D59;
+        padding: 1% 15% 1% 15%;
+        border: 0;
+        border-radius: 25px
+    }
+    #flex3 {
+        padding: 5%;
     }
 }
 

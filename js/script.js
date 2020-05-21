@@ -22,14 +22,14 @@ let x = setInterval(function () {
 
 
     //Display vores resultat i elementet med id="demo"
-    document.getElementById("demo").innerHTML = days + "d " + hours + "h " +
+    document.querySelector(".demo").innerHTML = days + "d " + hours + "h " +
         minutes + "m " + seconds + "s ";
 
 
     // Hvis vores countdown er slut, skriv lidt tekst
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("demo").innerHTML = "TICKETS ARE ON SALE!";
+        document.querySelector(".demo").innerHTML = "TICKETS ARE ON SALE!";
     }
 }, 1000);
 
