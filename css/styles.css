@@ -664,6 +664,12 @@ footer #copyright {
         border: 0;
         border-radius: 25px
     }
+    #buyme:hover {
+        background-color: #ffffff;
+        color: #D54D59;
+        border: 2px solid;
+        border-color: #D54D59;
+    }
     #flex3 {
         padding: 5%;
     }
@@ -692,9 +698,82 @@ footer #copyright {
         width: 60%;
         padding-top: 6%;
     }
+    #a1 {
+       -webkit-text-stroke: 1px #ffffff;
+        
+    }
+    #a1:hover {
+        -webkit-text-stroke: 1px #fc5c9c;
+        transition: 0.3s;
+        color: #fc5c9c;
+    }
+    #a2 {
+       -webkit-text-stroke: 1px #ffffff 
+    }
+    #a2:hover {
+        -webkit-text-stroke: 1px #ea7dc7;
+            transition: 0.3s;
+        color: #ea7dc7;
+    }
+    #a3 {
+       -webkit-text-stroke: 1px #ffffff;
+    }
+    #a3:hover {
+        -webkit-text-stroke: 1px #f5b5fc;
+        transition: 0.3s;
+        color: #f5b5fc;
+    }
+    #a4 {
+       -webkit-text-stroke: 1px #ffffff;
+    }
+    #a4:hover {
+        -webkit-text-stroke: 1px #74f9ff;
+        transition: 0.3s;
+        color: #74f9ff;
+    }
+    #a5 {
+       -webkit-text-stroke: 1px #ffffff;
+    }
+    #a5:hover {
+        -webkit-text-stroke: 1px #00e0ff;
+        transition: 0.3s;
+        color: #00e0ff;
+    }
+    #a5 {
+       -webkit-text-stroke: 1px #ffffff;
+    }
+    #a6:hover {
+        -webkit-text-stroke: 1px ;
+        transition: 0.3s;
+        color: #d54d59
+    }
+    .sm:hover {
+        transform: scale(0.9);
+    }
 }
 
 @media screen and (min-width: 1200px) {
+    h1 {
+        font-size: 3em;
+    }
+    #section6 {
+        height: 315px;
+    }
+    #buymen {
+        margin-top: 95px;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    #countdown {
+        font-size: 2.5em;
+    }
+    #flex2 {
+        display: none;
+    }
+    .pcthings {
+        display: block;
+    }
     #wrapper {
         padding: 0 1% 1% 1%;
         width: 98%;
@@ -714,7 +793,7 @@ footer #copyright {
         flex-direction: row;
         position: absolute;
         top: 40%;
-        font-size: 1em;
+        font-size: 1.3em;
         width: auto;
     }
     #flex1 li a .sm{
@@ -728,6 +807,18 @@ footer #copyright {
     .tickets {
         border: none;
     }
+    footer #copyright {
+        width: 20%;
+    }
+    #flex2 {
+        width: 30%;
+    }
+    div #footercontact {
+        margin: 0 10% 0 0;
+        margin-left: 50%;
+    }
+
+    
     
 }
 @media screen and (min-width: 1600px) {
