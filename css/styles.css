@@ -238,7 +238,7 @@ div .burger {
     cursor: pointer;
 }
 
-#pclogo {
+#tabletlogo {
     display: none;
 }
 
@@ -302,9 +302,6 @@ div .burger {
     margin-top: 7.5%;
 }
 
-#flex38 {
-    display: flex;
-}
 
 /*
 /* MAIN */
@@ -468,6 +465,9 @@ footer #copyright {
     .tabletthings {
         display: none;
     }
+    #pclogo {
+        display: none;
+    }
 }
 
 @media screen and (min-height: 700px) {
@@ -512,10 +512,7 @@ footer #copyright {
         width: 50%;
     }
 
-    #flex1 img {
-        width: 75%;
-        margin: 0;
-    }
+    
 
     #flex1 li {
         margin: 0 5px 0 0;
@@ -525,22 +522,10 @@ footer #copyright {
         display: none;
     }
 
-    #pclogo {
+    #tabletlogo {
         display: block;
         width: 40%;
         margin: 2%;
-    }
-
-
-    #flex38 {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        align-items: baseline;
-    }
-
-    #flex1 li a img {
-        width: 30%;
     }
 
     div .burger {
@@ -717,7 +702,7 @@ footer #copyright {
     header {
         width: 98%;
     }
-    #pclogo {
+    #tabletlogo {
         width: 20%;
         margin: 1%;
     }
@@ -729,18 +714,30 @@ footer #copyright {
         flex-direction: row;
         position: absolute;
         top: 40%;
-        right: 5%;
-        font-size: 1.5em;
+        font-size: 1em;
+        width: auto;
     }
-    #flex1 li a img {
-        width: 66px;
+    #flex1 li a .sm{
+        width: 40px;
         position: relative;
-        top: -25%;
+        top: -35%;
     }
     #flex1 li {
         margin: 0 25px 0 0;
     }
+    .tickets {
+        border: none;
+    }
     
+}
+@media screen and (min-width: 1600px) {
+    #flex1 {
+        font-size: 2em;
+    }
+    #flex1 li a .sm{
+        top: -30%;
+        width: 55px;
+    }
 }
 
 
