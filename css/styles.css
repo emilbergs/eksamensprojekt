@@ -433,6 +433,7 @@ h4 {
 .absolute1 {
     position: absolute;
     z-index: -1;
+    width: 100%;
 }
 #musicians {
     padding-top: 0px;
@@ -450,52 +451,52 @@ h4 {
 }
 
 .sm-green {
-    width: 60px;
-    height: 60px;
-    background: #00F1C9;
-    border-radius: 12px;
-    margin: 0;
+    width: 100px;
+    height: 100px;
+    background: #D8B7F6;
+    margin: 20% 0 0 0;
     
 }
 
 .sm-purple {
-    width: 60px;
-    height: 60px;
-    background: #5000F1;
-    border-radius: 12px;
-    margin: 0;
+    width: 80px;
+    height: 80px;
+    background: #9DA0F9;
+    border-radius: 50%;
+    margin: 0 0 0 75%;
 }
 
 .xs-green {
-    width: 60px;
-    height: 60px;
-    background: #00F1C9;
-    border-radius: 12px;
-    margin: 0;
+    width: 100px;
+    height: 200px;
+    background: #886FDE;
+    margin: 40% 0 0 15%;
 }
 
 .md-green {
-    width: 120px;
-    height: 120px;
-    background: #00F1C9;
-    border-radius: 12px;
-    margin: 0;
+    width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-bottom: 100px solid #DC90F3;
+    margin: 10% 0 0 45%;
 }
 
 #flex8 {
     display: flex;
     flex-direction: column;
+    align-items: center;
     top: 100px;
     margin-bottom: 100px;
 }
 
 #flex8 img {
-    width: 100%;
+    width: 80%;
 
 }
 
 #flex8 h1 {
-    margin: 10% 0 5% 0;
+    margin: 30% 0 5% 0;
 
 }
 
