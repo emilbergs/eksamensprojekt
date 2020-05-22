@@ -422,7 +422,7 @@ h4 {
     margin: 10% 0 0 0;
 }
 
-.absolute .above{
+.absolute .above {
     width: 95%;
     height: auto;
     position: fixed;
@@ -435,10 +435,14 @@ h4 {
     z-index: -1;
     width: 100%;
 }
+
+
 #musicians {
     padding-top: 0px;
+    width: 98%;
 }
-.relative .above{
+
+.relative .above {
     width: 100%;
     height: auto;
     position: relative;
@@ -450,12 +454,18 @@ h4 {
     z-index: -1;
 }
 
+.absolute1,
+.container,
+.row {
+    width: 95%;
+}
+
 .sm-green {
     width: 100px;
     height: 100px;
     background: #D8B7F6;
-    margin: 20% 0 0 0;
-    
+    margin: 20% 0 0 7%;
+
 }
 
 .sm-purple {
@@ -463,7 +473,7 @@ h4 {
     height: 80px;
     background: #9DA0F9;
     border-radius: 50%;
-    margin: 0 0 0 75%;
+    margin: 0 0 0 80%;
 }
 
 .xs-green {
@@ -475,10 +485,10 @@ h4 {
 
 .md-green {
     width: 0;
-      height: 0;
-      border-left: 50px solid transparent;
-      border-right: 50px solid transparent;
-      border-bottom: 100px solid #DC90F3;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #DC90F3;
     margin: 10% 0 0 45%;
 }
 
@@ -502,7 +512,7 @@ h4 {
 
 #flex8 h2 {
     margin: 5% 0 15% 0;
-   
+
 
 }
 
@@ -571,12 +581,18 @@ footer #copyright {
     #pclogo {
         display: none;
     }
+    
+    #countdiv {
+        display: none;
+    }
 }
 
 @media screen and (min-height: 700px) {
     #burgermenu li {
         padding: 0.75%;
     }
+
+
 }
 
 @media screen and (min-height: 800px) {
@@ -696,7 +712,7 @@ footer #copyright {
 
     #section2 #banner2 {
         width: 45px;
-        height: 200px;
+        height: 200px;;
         margin-top: 3%;
     }
 
@@ -879,6 +895,57 @@ footer #copyright {
     #countdown {
         margin: 3% 0 0 0;
     }
+
+    #flex8 h1 {
+        margin: 15% 0 5% 0;
+    }
+
+    #flex8 img {
+        width: 80%;
+    }
+
+    .flexmusician {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #hide {
+        display: none;
+    }
+
+    .sm-green {
+        width: 200px;
+        height: 200px;
+        background: #D8B7F6;
+        margin: 10% 0 0 7%;
+
+    }
+
+    .sm-purple {
+        width: 180px;
+        height: 180px;
+        background: #9DA0F9;
+        border-radius: 50%;
+        margin: 0 0 0 90%;
+    }
+
+    .xs-green {
+        width: 200px;
+        height: 300px;
+        background: #886FDE;
+        margin: 30% 0 0 15%;
+    }
+
+    .md-green {
+        width: 0;
+        height: 0;
+        border-left: 150px solid transparent;
+        border-right: 150px solid transparent;
+        border-bottom: 200px solid #DC90F3;
+        margin: 10% 0 0 45%;
+    }
+
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -967,6 +1034,42 @@ footer #copyright {
     #flex3 {
         margin: 1%;
     }
+    
+    .sm-green {
+        width: 200px;
+        height: 200px;
+        background: #D8B7F6;
+        margin: 10% 0 0 7%;
+
+    }
+
+    .sm-purple {
+        width: 250px;
+        height: 250px;
+        background: #9DA0F9;
+        border-radius: 50%;
+        margin: 0 0 0 90%;
+    }
+
+    .xs-green {
+        width: 200px;
+        height: 300px;
+        background: #886FDE;
+        margin: 30% 0 0 15%;
+    }
+
+    .md-green {
+        width: 0;
+        height: 0;
+        border-left: 250px solid transparent;
+        border-right: 250px solid transparent;
+        border-bottom: 200px solid #DC90F3;
+        margin: 10% 0 0 45%;
+    }
+    
+    #countdiv {
+        display: block;
+    }
 
 
 
@@ -987,6 +1090,56 @@ footer #copyright {
         top: -30%;
         width: 55px;
     }
+    
+    .wrapmusician {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #hide {
+        display: none;
+    }
+    
+    .sm-green {
+        width: 200px;
+        height: 200px;
+        background: #D8B7F6;
+        margin: 10% 0 0 40%;
+
+    }
+
+    .sm-purple {
+        width: 250px;
+        height: 250px;
+        background: #9DA0F9;
+        border-radius: 50%;
+        margin: 0 0 0 65%;
+    }
+
+    .xs-green {
+        width: 200px;
+        height: 300px;
+        background: #886FDE;
+        margin: 10% 0 0 30%;
+    }
+
+    .md-green {
+        width: 0;
+        height: 0;
+        border-left: 250px solid transparent;
+        border-right: 250px solid transparent;
+        border-bottom: 200px solid #DC90F3;
+        margin: 10% 0 0 45%;
+    }
+    
+    #flex8 h1 {
+        margin-top: 10%;
+    }
+    
+    #flex8 img {
+        width: 95%;
+    }
+    
 }
 
 
