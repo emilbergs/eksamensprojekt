@@ -1089,11 +1089,6 @@ footer #copyright {
         width: 55px;
     }
     
-    .wrapmusician {
-        display: flex;
-        flex-direction: row;
-    }
-    
     #hide {
         display: none;
     }
