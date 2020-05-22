@@ -585,6 +585,7 @@ footer #copyright {
     #countdiv {
         display: none;
     }
+    
 }
 
 @media screen and (min-height: 700px) {
@@ -1068,8 +1069,6 @@ footer #copyright {
     #countdiv {
         display: block;
     }
-
-
 
 }
 
