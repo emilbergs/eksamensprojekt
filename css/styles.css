@@ -407,6 +407,10 @@ h4 {
     margin: 2.5% 2.5% 0 2.5%;
 }
 
+#countdown {
+    margin: 10% 0 0 0;
+}
+
 /* MAIN ends */
 /* FOOTER */
 
@@ -618,13 +622,13 @@ footer #copyright {
 
     #section4 #banner6 {
         width: 45px;
-        height: 200px;
+        height: 225px;
         margin-top: 3%;
     }
 
     #section4 #banner5 {
         width: 45px;
-        height: 200px;
+        height: 225px;
         margin-top: 3%;
         margin-left: 1.5%;
     }
@@ -750,6 +754,9 @@ footer #copyright {
     .sm:hover {
         transform: scale(0.9);
     }
+    #countdown {
+    margin: 0 0 0 0;
+}
 }
 
 @media screen and (min-width: 1200px) {
