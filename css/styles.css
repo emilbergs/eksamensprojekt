@@ -194,10 +194,17 @@ Header img {
     margin: 5px;
 }
 
-.stroke {
+.stroke a {
     color: #1D1F22;
-    -webkit-text-stroke: 2px white;
     letter-spacing: 3px;
+}
+.stroke a {
+    text-decoration: none;
+    -webkit-text-stroke: 2px white;
+}
+.stroke a:link {
+    text-decoration: none;
+    color: #1D1F22;
 }
 
 .stroke:hover {}
@@ -208,6 +215,8 @@ Header img {
     margin-left: 5%;
     margin-right: 5%;
     padding-top: 2%;
+    text-decoration: none;
+    color: white;
 }
 
 #flex1 {
