@@ -13,38 +13,37 @@
 
 <body>
     <div id="wrapper">
-       <!Her starter vores header og navigationsbar>
-        <header>
+       <!-- Her starter vores header og navigationsbar-->
+        <header class="absolute above">
             <nav>
                 <div>
-                   <!Her begynder vores navigationsbar til pc> 
+                   <!--Her begynder vores navigationsbar til -->
                     <a href="index.html"><img src="images/logo1.png" alt="logo" id="tabletlogo">
                     </a>
                     <ul id="burgermenu" class="toggle fade-in-top">
-                        <li class="listItems stroke" id="">2021</li>
-                        <li class="listItems stroke">MUSIC</li>
-                        <li class="listItems stroke">ART</li>
-                        <li class="listItems stroke">EVENTS</li>
-                        <li class="listItems stroke">CONTACT</li>
+                        <li class="listItems stroke"><a>2021</a></li>
+                        <li class="listItems stroke"><a>MUSIC</a></li>
+                        <li class="listItems stroke"><a>ART</a></li>
+                        <li class="listItems stroke"><a>EVENTS</a></li>
+                        <li class="listItems stroke"><a>CONTACT</a></li>
                         <div id="flexicon">
                             <li class="listicon" id="listicon1"><a href="https://www.instagram.com/panorama_festival/" target="_blank"><img id="instalogo" src="images/instalogo.png" alt="instagram logo"></a></li>
                             <li class="listicon" id="listicon2"><a href="https://www.facebook.com/Panorama-festival-100656718106715/" target="_blank"><img src="images/facelogo.png" alt="facebook logo"></a></li>
                         </div>
                         <li class="tickets">TICKETS</li>
                     </ul>
-                    <!Her begynder vores navigationsbar til mobil og tablet>
                     <a href="index.html"><img src="images/logo-mobil1.png" alt="logo" id="mobillogo"></a>
                     <a href="index.html"><img src="images/logo1.png" alt="logo" id="pclogo">
                             </a>
                     <ul id="flex1">
-                        <li class="stroke" id="a1"><a>2021</a></li>
-                        <li class="stroke" id="a2">MUSIC</li>
-                        <li class="stroke" id="a3">ART</li>
-                        <li class="stroke" id="a4">EVENTS</li>
-                        <li class="stroke" id="a5">CONTACT</li>
+                        <li class="stroke"><a href="#" id="a1">2021</a></li>
+                        <li class="stroke"><a href="#" id="a2">MUSIC</a></li>
+                        <li class="stroke"><a href="#" id="a3">ART</a></li>
+                        <li class="stroke"><a href="#" id="a4">EVENTS</a></li>
+                        <li class="stroke"><a href="#" id="a5">CONTACT</a></li>
                         <li><a href="#"><img class="sm" src="images/instalogo.png" alt="instagram logo"></a></li>
                         <li><a href="#"><img class="sm" src="images/facelogo.png" alt="facebook logo"></a></li>
-                        <li class="tickets" id="a6">TICKETS</li>
+                        <li><a href="#" id="a6" class="tickets">TICKETS</a></li>
                     </ul>
                 </div>
                 <button id="burgerbar">
@@ -54,14 +53,62 @@
                 </button>
                 <button id="closemenu" class="fade-in">X</button>
             </nav>
-            <!Her slutter vores navigationsbar>
         </header>
-        <!Her slutter vores header og navigationsbar>
-        <!Her starter main>
+        <!-- Her slutter vores header og navigationsbar--> 
         <main>
             
+           <div id="flex8" class="above">
+               <h1>MUSICIANS</h1>
+               <img src="images/adam.jpg" alt="Adam">
+               <h2>Kunstner</h2>
+               <img src="images/henriette.jpg" alt="Henriette">
+               <h2>Kunstner</h2>
+           </div> 
+           
+           <div class="under">
+          <div class="container">
+            <div class="row">
+
+              
+            <div class="sm-green rellax"
+                  data-rellax-speed="5"
+                  data-rellax-xs-speed="3" 
+                  data-rellax-mobile-speed="4" 
+                  data-rellax-tablet-speed="5"
+                  style="transform: rotate(45deg);">
+                </div>
+                
+                 
+                <div class="sm-purple rellax"
+                  data-rellax-speed="2"
+                  data-rellax-xs-speed="1" 
+                  data-rellax-mobile-speed="2" 
+                  data-rellax-tablet-speed="2"
+                  style="transform: rotate(45deg);">
+                </div>
+                
+        
+             
+              <div class="xs-green rellax"
+                  data-rellax-speed="5"
+                  data-rellax-xs-speed="3" 
+                  data-rellax-mobile-speed="4" 
+                  data-rellax-tablet-speed="5"
+                  style="transform: rotate(45deg);">
+                </div>
+                
+                <div class="md-green rellax"
+                  data-rellax-speed="1"
+                  data-rellax-xs-speed="1" 
+                  data-rellax-mobile-speed="2" 
+                  data-rellax-tablet-speed="2"
+                  style="transform: rotate(45deg);">
+                </div>
+                </div>
+              </div>
+               </div>
+               
         </main>
-        <!
         <footer>
             <div id="flex7">
                 <div id="flex2">
@@ -87,6 +134,7 @@
         </footer>
     </div>
     <script src="js/script.js"></script>
+    <script type="text/javascript" src="js/rellax.js"></script>
 </body>
 
 </html>
