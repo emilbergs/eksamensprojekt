@@ -342,7 +342,7 @@ h1 {
     font-weight: 900;
     font-style: normal;
     font-size: 3.5em;
-    margin: 10%;
+    margin: 5%;
 }
 
 #section2 {
@@ -644,17 +644,17 @@ footer #copyright {
 
     #section2 {
         background-color: #EBD6E8;
-        padding: 6% 2% 6% 2%;
+        padding: 2% 2% 2% 2%;
     }
 
     #section3 {
         background-color: #A9DFED;
-        padding: 6% 2% 6% 2%;
+        padding: 0% 2% 2% 2%;
     }
 
     #section4 {
         background-color: #6A74B7;
-        padding: 6% 2% 10% 2%;
+        padding: 0% 2% 2% 2%;
     }
 
     #section6 {
@@ -684,7 +684,7 @@ footer #copyright {
         border-color: #D54D59;
     }
     #flex3 {
-        padding: 5%;
+        margin: 2%;
     }
     #flex7 {
         display: flex;
@@ -764,7 +764,7 @@ footer #copyright {
         transform: scale(0.9);
     }
     #countdown {
-    margin: 0 0 0 0;
+    margin: 3% 0 0 0;
 }
 }
 
@@ -832,6 +832,9 @@ footer #copyright {
     div #footercontact {
         margin: 0 10% 0 0;
         margin-left: 50%;
+    }
+    #flex3 {
+        margin: 1%;
     }
 
     
