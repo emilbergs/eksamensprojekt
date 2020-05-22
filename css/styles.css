@@ -422,23 +422,27 @@ h4 {
     margin: 10% 0 0 0;
 }
 
-.absolute {
-  width: 95%;
-  height: auto;
-position: fixed;
-top: 0;
+.absolute .above{
+    width: 95%;
+    height: auto;
+    position: fixed;
+    top: 0;
     z-index: 2;
 }
+
 .absolute1 {
     position: absolute;
     z-index: -1;
 }
-.relative {
-width: 100%;
-height: auto;
-position: relative;
-top: 0;
-z-index: 1
+#musicians {
+    padding-top: 0px;
+}
+.relative .above{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 0;
+    z-index: 1
 }
 
 .under {
@@ -446,56 +450,58 @@ z-index: 1
 }
 
 .sm-green {
-  width: 60px;
-  height: 60px;
-  background: #00F1C9;
-  border-radius: 12px;
-  margin: 0;
+    width: 60px;
+    height: 60px;
+    background: #00F1C9;
+    border-radius: 12px;
+    margin: 0;
+    
 }
 
 .sm-purple {
-  width: 60px;
-  height: 60px;
-  background: #5000F1;
-  border-radius: 12px;
-  margin: 0;
+    width: 60px;
+    height: 60px;
+    background: #5000F1;
+    border-radius: 12px;
+    margin: 0;
 }
 
 .xs-green {
-  width: 60px;
-  height: 60px;
-  background: #00F1C9;
-  border-radius: 12px;
-  margin: 0;
+    width: 60px;
+    height: 60px;
+    background: #00F1C9;
+    border-radius: 12px;
+    margin: 0;
 }
 
 .md-green {
-  width: 120px;
-  height: 120px;
-  background: #00F1C9;
-  border-radius: 12px;
-  margin: 0;
+    width: 120px;
+    height: 120px;
+    background: #00F1C9;
+    border-radius: 12px;
+    margin: 0;
 }
 
 #flex8 {
     display: flex;
     flex-direction: column;
     top: 100px;
+    margin-bottom: 100px;
 }
 
 #flex8 img {
     width: 100%;
-    
+
 }
 
 #flex8 h1 {
     margin: 10% 0 5% 0;
-   
+
 }
 
 #flex8 h2 {
     margin: 5% 0 5% 0;
-    
+
 }
 
 
