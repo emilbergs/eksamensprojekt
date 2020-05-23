@@ -1,5 +1,5 @@
 //sætter datoen vi tæller til
-let countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
+let countDownDate = new Date("Feb 5, 2021 16:00:00").getTime();
 
 
 // opdaterer countdown hvert sekund
