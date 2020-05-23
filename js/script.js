@@ -71,7 +71,7 @@ let buyMeButton = document.getElementById("buyme");
 
 buyMeButton.addEventListener("click", referTo);
 
-function referTo (){
+function referTo() {
     window.location.href = "tickets.html";
 }
 // Buy me button ends //

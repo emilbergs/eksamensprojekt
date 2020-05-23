@@ -601,6 +601,7 @@ h4 {
 .price {
     margin-bottom: 2rem;
 }
+
 #flex11 {
     width: 100%;
     z-index: 1;
@@ -1135,6 +1136,7 @@ footer #copyright {
         transform: scale(1.2);
         z-index: -1
     }
+
     .days {
         z-index: -2
     }
@@ -1345,6 +1347,7 @@ footer #copyright {
         padding: 5%;
         margin-top: 1rem;
     }
+
     .tickets1 a:hover {
         color: #1d1f22;
         background-color: #ffffff;
