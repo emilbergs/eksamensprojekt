@@ -443,13 +443,6 @@ h4 {
 }
 
 
-#musicians,
-#artists,
-#events {
-    padding-top: 0px;
-    width: 98%;
-}
-
 #musicians {
     width: 100%;
 }
