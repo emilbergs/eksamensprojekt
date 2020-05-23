@@ -33,7 +33,7 @@ let x = setInterval(function () {
     }
 }, 1000);
 
-//countdown slut
+//countdown ends //
 // BURGERMENU
 let burgerBar = document.getElementById("burgerbar");
 let menuBar = document.getElementById("burgermenu");
@@ -54,8 +54,8 @@ function noToggleMenu() {
     burgerBar.style.display = "block";
     closeMenu.style.display = "none";
 }
-//burgermenu slut
-//logo fade in
+//burgermenu ends //
+//logo fade in //
 
 let mobilLogo = document.getElementById("mobillogo");
 
@@ -65,4 +65,13 @@ function fadeIn() {
     mobilLogo.classList.add("fade-in");
 }
 
-//logo fade in slut
+//logo fade in ends //
+// Buy me button //
+let buyMeButton = document.getElementById("buyme");
+
+buyMeButton.addEventListener("click", referTo);
+
+function referTo (){
+    window.location.href = "tickets.html";
+}
+// Buy me button ends //
