@@ -605,7 +605,9 @@ h4 {
 }
 .flexaboutus {
     padding: 6% 6% 10% 6%;
-    
+}
+.flexaboutus p {
+    line-height: 1.3rem;
 }
 
 
@@ -644,6 +646,9 @@ h4 {
     display: none;
 }
 #tickets .hide {
+    display: none;
+}
+#aboutus .hide {
     display: none;
 }
 
@@ -1214,6 +1219,10 @@ footer #copyright {
     .flexaboutusclass {
         display: flex;
         flex-direction: row;
+        
+    }
+    .flexaboutus {
+        width: 50%;
     }
     
 
@@ -1230,6 +1239,9 @@ footer #copyright {
         display: none;
     }
     #tickets .hidetablet {
+        display: none;
+    }
+    #aboutus .hidetablet {
         display: none;
     }
 
@@ -1482,6 +1494,9 @@ footer #copyright {
         height: 40px;
         margin-top: 40px;
     }
+    .flexaboutus p {
+        line-height: 1.7rem;
+    }
 
 }
 
@@ -1550,6 +1565,13 @@ footer #copyright {
 
     #flex8 #panoramalight {
         width: 95%;
+    }
+    .flexaboutus h3 {
+        font-size: 2em;
+    }
+    .flexaboutus p {
+        line-height: 2rem;
+        font-size: 1.5em;
     }
 
 }
