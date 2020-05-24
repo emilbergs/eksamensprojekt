@@ -75,3 +75,13 @@ function referTo() {
     window.location.href = "tickets.html";
 }
 // Buy me button ends //
+
+// notification button //
+let submitb = document.getElementById("submitbutton");
+let inputtext = document.getElementById("email");
+
+submitb.addEventListener("click", changeInput);
+
+function changeInput(){
+    inputtext.value = "Thank you!";
+}
