@@ -462,7 +462,7 @@ h4 {
 .absolute1,
 .container,
 .row {
-    width: 95%;
+    width: 91.5%;
 }
 
 .sm-green {
@@ -600,7 +600,7 @@ h4 {
     z-index: 1;
 }
 /* about us page */
-#flex8 #zenna{
+#flex8 .zenna{
     width: 100%
 }
 .flexaboutus {
@@ -937,6 +937,7 @@ footer #copyright {
     #flex7 {
         display: flex;
         flex-direction: row;
+        width: 100%
     }
 
     #infofot {
@@ -1502,7 +1503,7 @@ footer #copyright {
 
 @media screen and (min-width: 1450px) {
     #infofot {
-        margin: 0 0 0 7%;
+        margin: 0 0 0 0%;
     }
 }
 

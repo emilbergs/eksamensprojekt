@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Panorama Festival</title>
     <link rel="stylesheet" href="css/styles.css">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="">
     <link rel="stylesheet" href="https://use.typekit.net/kzt4cnx.css">
 
@@ -25,11 +25,14 @@
                         <li class="listItems stroke"><a href="musicians.html">MUSIC</a></li>
                         <li class="listItems stroke"><a href="artists.html">ART</a></li>
                         <li class="listItems stroke"><a href="events.html">EVENTS</a></li>
-                        <li class="listItems stroke"><a href="contact.html">ABOUT US</a></li>
-                        <div id="flexicon">
-                            <li><a href="https://www.facebook.com/Panorama-festival-100656718106715/" target="_blank"><img class="sm" src="images/facelogo.png" alt="facebook logo"></a></li>
-                            <li><a href="https://www.instagram.com/panorama_festival/?hl=da" target="_blank"><img class="sm" src="images/instalogo.png" alt="instagram logo"></a></li>
-                        </div>
+                        <li class="listItems stroke"><a href="aboutus.html">ABOUT US</a></li>
+                        <li>
+                            <div id="flexicon">
+                                <a href="https://www.facebook.com/Panorama-festival-100656718106715/" target="_blank"><img class="sm" src="images/facelogo.png" alt="facebook logo"></a>
+                                <a href="https://www.instagram.com/panorama_festival/?hl=da" target="_blank"><img class="sm" src="images/instalogo.png" alt="instagram logo"></a>
+                            </div>
+                        </li>
+
                         <li class="tickets"><a href="tickets.html">TICKETS</a></li>
                     </ul>
                     <a href="index.html"><img src="images/logo-mobil1.png" alt="logo" id="mobillogo"></a>
@@ -40,134 +43,136 @@
                         <li class="stroke"><a href="musicians.html" id="a2">MUSIC</a></li>
                         <li class="stroke"><a href="artists.html" id="a3">ART</a></li>
                         <li class="stroke"><a href="events.html" id="a4">EVENTS</a></li>
-                        <li class="stroke"><a href="contact.html" id="a5">ABOUT US</a></li>
+                        <li class="stroke"><a href="aboutus.html" id="a5">ABOUT US</a></li>
                         <li><a href="https://www.facebook.com/Panorama-festival-100656718106715/" target="_blank"><img class="sm" src="images/facelogo.png" alt="facebook logo"></a></li>
                         <li><a href="https://www.instagram.com/panorama_festival/?hl=da" target="_blank"><img class="sm" src="images/instalogo.png" alt="instagram logo"></a></li>
                         <li><a href="tickets.html" id="a6" class="tickets">TICKETS</a></li>
                     </ul>
                 </div>
-                <button id="burgerbar">
+                <a id="burgerbar">
                     <div class="burger" id="topburger"></div>
                     <div class="burger"></div>
                     <div class="burger"></div>
-                </button>
+                </a>
                 <button id="closemenu" class="fade-in">X</button>
             </nav>
         </header>
         <!--Her slutter vores header og navigationsbar-->
         <main>
-            <video src="videos/forside-video.mp4" autoplay muted loop></video>
-            <img src="images/mobile-background2.jpg" alt="background" id="mobile-background">
-            <section>
+            <article>
+                <video src="videos/forside-video.mp4" autoplay muted loop></video>
+                <img src="images/mobile-background2.jpg" alt="background" id="mobile-background">
                 <h1>THIS YEARS PANORAMA</h1>
                 <img id="billede2021" src="images/2021.png" alt="2021">
-                <div id="section2">
-                    <h2>HEADLINERS</h2>
-                    <div id="flex4">
-                        <img src="images/music1.png" class="tabletthings" id="banner1">
+                <section>
+                    <div id="section2">
+                        <h2>HEADLINERS</h2>
+                        <div id="flex4">
+                            <img src="images/music1.png" class="tabletthings" id="banner1" alt="music">
+                            <div class="marginimages">
+                                <img src="images/jan.jpg" alt="Jan Brandi">
+                                <div class="headlinerText">
+                                    <h3>Jan Brandi</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, iure.</p>
+                                    <h4>14/10/2020</h4>
+                                </div>
+                            </div>
+                            <div class="tabletthings marginimages">
+                                <img src="images/christian.jpg" alt="Casper Christensen">
+                                <div class="headlinerText">
+                                    <h3>Casper Christensen</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, iure.</p>
+                                    <h4>14/10/2020</h4>
+                                </div>
+                            </div>
+                            <div class="pcthings marginimages">
+                                <img src="images/kool.jpg" alt="Kool K Stolze">
+                                <div class="headlinerText">
+                                    <h3>Kool K Stolze</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, iure.</p>
+                                    <h4>14/10/2020</h4>
+                                </div>
+                            </div>
+                            <img src="images/music2.png" class="tabletthings" id="banner2" alt="music">
+                        </div>
+                    </div>
+                </section>
+                <section id="section3">
+                    <div id="flex5">
+                        <img src="images/art1.png" class="tabletthings" id="banner3" alt="art">
                         <div class="marginimages">
-                            <img src="images/jan.jpg" alt="Jan Brandi">
+                            <img src="images/hackstage-art1.png" alt="Discosmos">
                             <div class="headlinerText">
-                                <h3>Jan Brandi</h3>
+                                <h3>Discosmos</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, iure.</p>
                                 <h4>14/10/2020</h4>
                             </div>
                         </div>
                         <div class="tabletthings marginimages">
-                            <img src="images/christian.jpg" alt="Casper Christensen">
+                            <img src="images/hackstage-art2.png" alt="Hackstage">
                             <div class="headlinerText">
-                                <h3>Casper Christensen</h3>
+                                <h3>Hackstage</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, iure.</p>
                                 <h4>14/10/2020</h4>
                             </div>
                         </div>
                         <div class="pcthings marginimages">
-                            <img src="images/kool.jpg" alt="Kool K Stolze">
+                            <img src="images/hackstage-art3.png" alt="Panorama light art">
                             <div class="headlinerText">
-                                <h3>Kool K Stolze</h3>
+                                <h3>Panorama light art</h3>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, iure.</p>
                                 <h4>14/10/2020</h4>
                             </div>
                         </div>
-                        <img src="images/music2.png" class="tabletthings" id="banner2">
+                        <img src="images/art2.png" class="tabletthings" id="banner4" alt="art">
                     </div>
-                </div>
-            </section>
-            <section id="section3">
-                <div id="flex5">
-                    <img src="images/art1.png" class="tabletthings" id="banner3">
-                    <div class="marginimages">
-                        <img src="images/hackstage-art1.png" alt="Discosmos">
-                        <div class="headlinerText">
-                            <h3>Discosmos</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, iure.</p>
-                            <h4>14/10/2020</h4>
+                </section>
+                <section id="section4">
+                    <div id="flex6">
+                        <img src="images/shows1.png" class="tabletthings" id="banner5" alt="shows">
+                        <div class="marginimages">
+                            <img src="images/mobile-mirrors.png" alt="Mobile Mirrors">
+                            <div class="headlinerText">
+                                <h3>Mobile Mirrors</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, iure.</p>
+                                <h4>14/10/2020</h4>
+                            </div>
                         </div>
-                    </div>
-                    <div class="tabletthings marginimages">
-                        <img src="images/hackstage-art2.png" alt="Hackstage">
-                        <div class="headlinerText">
-                            <h3>Hackstage</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, iure.</p>
-                            <h4>14/10/2020</h4>
+                        <div class="tabletthings marginimages">
+                            <img src="images/Skeletonman.png" alt="Skeletonman">
+                            <div class="headlinerText">
+                                <h3>Skeletonman</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, iure.</p>
+                                <h4>14/10/2020</h4>
+                            </div>
                         </div>
-                    </div>
-                    <div class="pcthings marginimages">
-                        <img src="images/hackstage-art3.png" alt="Panorama light art">
-                        <div class="headlinerText">
-                            <h3>Panorama light art</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, iure.</p>
-                            <h4>14/10/2020</h4>
+                        <div class="pcthings marginimages">
+                            <img src="images/skeleton.png" alt="Skeleton">
+                            <div class="headlinerText">
+                                <h3>Skeletonmen</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, iure.</p>
+                                <h4>14/10/2020</h4>
+                            </div>
                         </div>
+                        <img src="images/shows2.png" class="tabletthings" id="banner6" alt="shows">
                     </div>
-                    <img src="images/art2.png" class="tabletthings" id="banner4">
-                </div>
-            </section>
-            <section id="section4">
-                <div id="flex6">
-                    <img src="images/shows1.png" class="tabletthings" id="banner5">
-                    <div class="marginimages">
-                        <img src="images/mobile-mirrors.png" alt="Mobile Mirrors">
-                        <div class="headlinerText">
-                            <h3>Mobile Mirrors</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, iure.</p>
-                            <h4>14/10/2020</h4>
-                        </div>
+                </section>
+                <section id="section6" class="tabletthings">
+                    <button id="buyme">SECURE YOUR <br>TICKET NOW!</button>
+                </section>
+                <section id="section5">
+                    <div id="flex3">
+                        <h2 id="countdown">COUNTDOWN</h2>
+                        <!-- Display the countdown timer in an element -->
+                        <p class="demo"></p>
                     </div>
-                    <div class="tabletthings marginimages">
-                        <img src="images/Skeletonman.png" alt="Skeletonman">
-                        <div class="headlinerText">
-                            <h3>Skeletonman</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, iure.</p>
-                            <h4>14/10/2020</h4>
-                        </div>
-                    </div>
-                    <div class="pcthings marginimages">
-                        <img src="images/skeleton.png" alt="Skeleton">
-                        <div class="headlinerText">
-                            <h3>Skeletonmen</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, iure.</p>
-                            <h4>14/10/2020</h4>
-                        </div>
-                    </div>
-                    <img src="images/shows2.png" class="tabletthings" id="banner6">
-                </div>
-            </section>
-            <section id="section6" class="tabletthings">
-                <button id="buyme">SECURE YOUR <br>TICKET NOW!</button>
-            </section>
-            <section id="section5">
-                <div id="flex3">
-                    <h2 id="countdown">COUNTDOWN</h2>
-                    <!-- Display the countdown timer in an element -->
-                    <p class="demo"></p>
-                </div>
-            </section>
-            <form id="formid" class="tabletthings" action="#formid">
-                <label for="email">Want notifications?</label><br>
-                <input type="text" id="email" name="email" value="Email">
-                <input type="submit" value="&rArr;" id="submitbutton">
-            </form>
+                </section>
+                <form id="formid" class="tabletthings" action="#formid">
+                    <label for="email">Want notifications?</label><br>
+                    <input type="text" id="email" name="email" value="Email">
+                    <input type="submit" value="&rArr;" id="submitbutton">
+                </form>
+            </article>
         </main>
         <footer>
             <div id="flex7">
