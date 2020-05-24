@@ -603,13 +603,11 @@ h4 {
 #flex8 #zenna{
     width: 100%
 }
-#sectionzenna {
+.flexaboutus {
     padding: 6% 6% 10% 6%;
     
 }
-#zenna {
-    width: 100%;
-}
+
 
 .headlinerTextAboutUs {
     background-color: rgba(0 0 0 0.5);
@@ -628,11 +626,16 @@ h4 {
 
 .headlinerTextAboutUs p {
     margin: 0 0 4% 0;
+    font-weight: 300;
 }
 
 .headlinerTextAboutUs h3,
 h4 {
-    font-weight: bold;
+    font-weight: bolder;
+}
+
+.headlinerTextAboutUs h3 {
+    font-size: 1.3em;
 }
 
 /* MAIN ends */
@@ -1196,6 +1199,16 @@ footer #copyright {
     input {
         height: 25px;
     }
+    
+    /* about us page tablet */
+    .flexaboutusclass {
+        display: flex;
+        flex-direction: row;
+    }
+    
+
+    
+
 }
 
 @media screen and (min-width: 1200px) {
