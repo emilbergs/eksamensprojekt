@@ -634,6 +634,15 @@ h4 {
 h4 {
     font-weight: bold;
 }
+#artists .hide {
+    display: none;
+}
+#events .hide{
+    display: none;
+}
+#tickets .hide {
+    display: none;
+}
 
 /* MAIN ends */
 /* FOOTER */
@@ -1030,7 +1039,7 @@ footer #copyright {
         flex-direction: row;
     }
 
-    #hide {
+    .hide {
         display: none;
     }
 
@@ -1195,6 +1204,18 @@ footer #copyright {
     }
     input {
         height: 25px;
+    }
+    .show {
+        display: block;
+    }
+    #artists .hidetablet {
+        display: none;
+    }
+    #events .hidetablet {
+        display: none;
+    }
+    #tickets .hidetablet {
+        display: none;
     }
 }
 
@@ -1464,8 +1485,11 @@ footer #copyright {
         width: 55px;
     }
 
-    #hide {
+    .hide {
         display: none;
+    }
+    .show {
+        display: block;
     }
 
     .sm-green {
