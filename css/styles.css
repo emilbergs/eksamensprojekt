@@ -599,6 +599,41 @@ h4 {
     width: 100%;
     z-index: 1;
 }
+/* about us page */
+#flex8 #zenna{
+    width: 100%
+}
+#sectionzenna {
+    padding: 6% 6% 10% 6%;
+    
+}
+#zenna {
+    width: 100%;
+}
+
+.headlinerTextAboutUs {
+    background-color: rgba(0 0 0 0.5);
+    padding: 4%;
+}
+
+.headlinerTextAboutUs p,
+h3,
+h4 {
+    text-align: left;
+}
+
+.headlinerTextAboutUs h3 {
+    margin: 0 0 4% 0;
+}
+
+.headlinerTextAboutUs p {
+    margin: 0 0 4% 0;
+}
+
+.headlinerTextAboutUs h3,
+h4 {
+    font-weight: bold;
+}
 
 /* MAIN ends */
 /* FOOTER */
