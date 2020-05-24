@@ -567,7 +567,7 @@ h4 {
     justify-content: center
 }
 
-#dkk {
+.dkk {
     font-size: 1em;
     font-weight: 900;
     padding-top: 1.5rem;
@@ -866,7 +866,6 @@ footer #copyright {
         width: 45px;
         height: 125px;
         margin-top: 3%;
-        margin-left: 1.5%;
     }
 
     #section4 #banner6 {
@@ -879,7 +878,6 @@ footer #copyright {
         width: 45px;
         height: 225px;
         margin-top: 3%;
-        margin-left: 1.5%;
     }
 
     #section2 {
@@ -1143,7 +1141,7 @@ footer #copyright {
         justify-content: center
     }
 
-    #dkk {
+    .dkk {
         font-size: 1em;
         font-weight: 900;
         padding-top: 1.5rem;
@@ -1434,7 +1432,7 @@ footer #copyright {
         justify-content: center
     }
 
-    #dkk {
+    .dkk {
         font-size: 1em;
         font-weight: 900;
         padding-top: 1.9rem;
