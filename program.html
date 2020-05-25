@@ -14,7 +14,7 @@
 
 </head>
 
-<body>
+<body onload="getFriday();getSaturday()">
     <div id="wrapper">
         <!-- Her starter vores header og navigationsbar-->
         <header class="absolute above">
@@ -58,7 +58,7 @@
             </nav>
         </header>
         <!-- Her slutter vores header og navigationsbar-->
-        <main id="musicians">
+        <main id="program">
 
             <div class="absolute1">
                 <div class="container">
@@ -102,27 +102,21 @@
                             </div>
 
 
-                            <div class="xs-green rellax" data-rellax-speed="2" data-rellax-xs-speed="3" data-rellax-mobile-speed="1" data-rellax-tablet-speed="2" style="transform: rotate(95deg);">
+                            <div class="xs-green rellax hidetablet" data-rellax-speed="2" data-rellax-xs-speed="3" data-rellax-mobile-speed="1" data-rellax-tablet-speed="2" style="transform: rotate(95deg);">
                             </div>
 
-                            <div class="md-green rellax" data-rellax-speed="3" data-rellax-xs-speed="1" data-rellax-mobile-speed="4" data-rellax-tablet-speed="4" style="transform: rotate(35deg);">
+                            <div class="md-green rellax hidetablet" data-rellax-speed="3" data-rellax-xs-speed="1" data-rellax-mobile-speed="4" data-rellax-tablet-speed="4" style="transform: rotate(35deg);">
                             </div>
 
-                            <div class="sm-green rellax" data-rellax-speed="3" data-rellax-xs-speed="3" data-rellax-mobile-speed="2" data-rellax-tablet-speed="1" style="transform: rotate(70deg);">
-                            </div>
-
-
-                            <div class="sm-purple rellax" data-rellax-speed="3" data-rellax-xs-speed="1" data-rellax-mobile-speed="3" data-rellax-tablet-speed="3" style="transform: rotate(65deg);">
+                            <div class="sm-green rellax hidetablet" data-rellax-speed="3" data-rellax-xs-speed="3" data-rellax-mobile-speed="2" data-rellax-tablet-speed="1" style="transform: rotate(70deg);">
                             </div>
 
 
-                            <div class="xs-green rellax" data-rellax-speed="3" data-rellax-xs-speed="3" data-rellax-mobile-speed="2" data-rellax-tablet-speed="1" style="transform: rotate(15deg);">
+                            <div class="sm-purple rellax hidetablet" data-rellax-speed="3" data-rellax-xs-speed="1" data-rellax-mobile-speed="3" data-rellax-tablet-speed="3" style="transform: rotate(65deg);">
                             </div>
 
-                            <div class="md-green rellax" data-rellax-speed="3" data-rellax-xs-speed="1" data-rellax-mobile-speed="4" data-rellax-tablet-speed="3" style="transform: rotate(85deg);">
-                            </div>
 
-                            <div class="sm-green rellax" data-rellax-speed="2" data-rellax-xs-speed="3" data-rellax-mobile-speed="4" data-rellax-tablet-speed="5" style="transform: rotate(25deg);">
+                            <div class="xs-green rellax hidetablet" data-rellax-speed="3" data-rellax-xs-speed="3" data-rellax-mobile-speed="2" data-rellax-tablet-speed="1" style="transform: rotate(15deg);">
                             </div>
                         </div>
 
@@ -130,6 +124,8 @@
                 </div>
             </div>
             <div id="flex8" class="relative above">
+               <div id="output1"></div>
+               <div id="output2"></div>
                 <div id="countdiv">
                     <h2 id="countdown">COUNTDOWN</h2>
                     <!-- Display the countdown timer in an element -->

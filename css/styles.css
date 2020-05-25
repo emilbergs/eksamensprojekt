@@ -321,7 +321,22 @@ div .burger {
 
 /*
 /* MAIN */
+#output2 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
 
+.mb-3 {
+    margin-top: 10%;
+}
+.list-group li {
+    font-weight: 500;
+}
+#emilkankode {
+    font-size: 1.2em;
+    font-weight: 900;
+    text-align: center;
+}
 main {
     padding-top: 51.6px;
 }
@@ -412,6 +427,15 @@ h4 {
 #flex5 {
     display: flex;
     flex-direction: row;
+}
+
+#revealme {
+    font-size: 1.5em;
+    background-color: #1d1f22;
+    color: #ffffff;
+    border: 0;
+    margin: 10%;
+    padding: 2%;
 }
 
 #flex6 {
@@ -571,6 +595,7 @@ h4 {
     font-size: 1em;
     font-weight: 900;
     padding-top: 1.5rem;
+    
 }
 
 .tickets1 a {
@@ -650,6 +675,9 @@ h4 {
 }
 #aboutus .hide {
     display: none;
+}
+#output2 h2 {
+    margin: 5% 0 5% 0;
 }
 
 /* MAIN ends */
@@ -1241,6 +1269,9 @@ footer #copyright {
         display: none;
     }
     #aboutus .hidetablet {
+        display: none;
+    }
+    #program .hidetablet {
         display: none;
     }
 

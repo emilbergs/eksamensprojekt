@@ -82,7 +82,7 @@ let inputtext = document.getElementById("email");
 
 submitb.addEventListener("click", changeInput);
 
-function changeInput(){
+function changeInput() {
     inputtext.value = "Thank you!";
 }
 
@@ -90,11 +90,43 @@ function changeInput(){
 //API
 
 
+function getFriday() {
+    fetch('json/friday.json')
+        .then((res) => res.json())
+        .then((data) => {
+            let output= `
+<h1 class="display mb-4">PROGRAM</h1>
+<h2 class="display mb-4">FRIDAY: 19:00 - 05:00</h2>`
+            data.forEach(function (friday) {
+                output += `
+<ul class="list-group mb-3">
+<li class="list-group-item">Time: ${friday.Time}</li>
+<li class="list-group-item">Name: ${friday.Name}</li>
+<li class="list-group-item">Act: ${friday.Act}</li>
+</ul>`
+            }) 
+        document.getElementById("output1").innerHTML = output;
+        })
+}
 
+//
 
-
-
-
-
-
+function getSaturday() {
+    fetch('json/saturday.json')
+        .then((res) => res.json())
+        .then((data) => {
+            let output= `
+<h2 class="display mb-4">SATURDAY: 14:00 - 05:00</h2>
+<h3 class="display mb-4" id="emilkankode">Dagsprogram (Free until 20:00)</h3>`
+            data.forEach(function (saturday) {
+                output += `
+<ul class="list-group mb-3">
+<li class="list-group-item">Time: ${saturday.Time}</li>
+<li class="list-group-item">Name: ${saturday.Name}</li>
+<li class="list-group-item">Act: ${saturday.Act}</li>
+</ul>`
+            }) 
+        document.getElementById("output2").innerHTML = output;
+        })
+}
 
