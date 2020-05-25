@@ -14,7 +14,7 @@
 
 </head>
 
-<body>
+<body onload="getImages()">
     <div id="wrapper">
         <!-- Her starter vores header og navigationsbar -->
         <header>
@@ -68,89 +68,7 @@
                 <h1>THIS YEARS PANORAMA</h1>
                 <img id="billede2021" src="images/2021.png" alt="2021">
                 <section>
-                    <div id="section2">
-                        <h2>HEADLINERS</h2>
-                        <div id="flex4">
-                            <img src="images/music1.png" class="tabletthings" id="banner1" alt="music">
-                            <div class="marginimages">
-                                <img src="images/jan.jpg" alt="Jan Brandi">
-                                <div class="headlinerText">
-                                    <h3>Jan Brandi</h3>
-                                    <h4>14/10/2020</h4>
-                                </div>
-                            </div>
-                            <div class="tabletthings marginimages">
-                                <img src="images/christian.jpg" alt="Casper Christensen">
-                                <div class="headlinerText">
-                                    <h3>Casper Christensen</h3>
-                                    <h4>15/10/2020</h4>
-                                </div>
-                            </div>
-                            <div class="pcthings marginimages">
-                                <img src="images/kool.jpg" alt="Kool K Stolze">
-                                <div class="headlinerText">
-                                    <h3>Kool K Stolze</h3>
-
-                                    <h4>15/10/2020</h4>
-                                </div>
-                            </div>
-                            <img src="images/music2.png" class="tabletthings" id="banner2" alt="music">
-                        </div>
-                    </div>
-                </section>
-                <section id="section3">
-                    <div id="flex5">
-                        <img src="images/art1.png" class="tabletthings" id="banner3" alt="art">
-                        <div class="marginimages">
-                            <img src="images/hackstage-art1.png" alt="Discosmos">
-                            <div class="headlinerText">
-                                <h3>Discosmos</h3>
-                                <h4>14/10/2020</h4>
-                            </div>
-                        </div>
-                        <div class="tabletthings marginimages">
-                            <img src="images/hackstage-art2.png" alt="Hackstage">
-                            <div class="headlinerText">
-                                <h3>Hackstage</h3>
-                                <h4>15/10/2020</h4>
-                            </div>
-                        </div>
-                        <div class="pcthings marginimages">
-                            <img src="images/hackstage-art3.png" alt="Panorama light art">
-                            <div class="headlinerText">
-                                <h3>Panorama light art</h3>
-                                <h4>15/10/2020</h4>
-                            </div>
-                        </div>
-                        <img src="images/art2.png" class="tabletthings" id="banner4" alt="art">
-                    </div>
-                </section>
-                <section id="section4">
-                    <div id="flex6">
-                        <img src="images/shows1.png" class="tabletthings" id="banner5" alt="shows">
-                        <div class="marginimages">
-                            <img src="images/mobile-mirrors.png" alt="Mobile Mirrors">
-                            <div class="headlinerText">
-                                <h3>Mobile Mirrors</h3>
-                                <h4>14/10/2020</h4>
-                            </div>
-                        </div>
-                        <div class="tabletthings marginimages">
-                            <img src="images/Skeletonman.png" alt="Skeletonman">
-                            <div class="headlinerText">
-                                <h3>Skeletonman</h3>
-                                <h4>15/10/2020</h4>
-                            </div>
-                        </div>
-                        <div class="pcthings marginimages">
-                            <img src="images/skeleton.png" alt="Skeleton">
-                            <div class="headlinerText">
-                                <h3>Skeletonmen</h3>
-                                <h4>15/10/2020</h4>
-                            </div>
-                        </div>
-                        <img src="images/shows2.png" class="tabletthings" id="banner6" alt="shows">
-                    </div>
+                   <div id="output3"></div>
                 </section>
                 <section id="section6" class="tabletthings">
                     <button id="buyme">SECURE YOUR <br>TICKET NOW!</button>
