@@ -624,6 +624,7 @@ h4 {
     width: 100%;
     z-index: 1;
 }
+
 /* about us page */
 #flex8 .zenna{
     width: 100%
@@ -646,7 +647,9 @@ h3,
 h4 {
     text-align: left;
 }
-
+#index h3, h4{
+    text-align: center;
+}
 .headlinerTextAboutUs h3 {
     margin: 0 0 4% 0;
 }
@@ -663,6 +666,9 @@ h4 {
 
 .headlinerTextAboutUs h3 {
     font-size: 1.3em;
+}
+#index h4 {
+    font-weight: normal;
 }
 #artists .hide {
     display: none;
@@ -682,7 +688,15 @@ h4 {
 
 /* MAIN ends */
 /* FOOTER */
-
+#infofot {
+    margin: 0 auto;
+}
+#flex7 {
+    margin: 0 auto;
+    justify-content: center;
+    align-content: centeR;
+    align-items: center;
+}
 footer {
     background-color: #1d1F22;
     color: white;
@@ -692,7 +706,10 @@ footer {
 }
 
 #infofot {
-    text-align: left;
+    text-align: center;
+}
+#infofot h4 {
+    text-align: center;
 }
 
 #infofot h4 {
@@ -705,8 +722,9 @@ footer {
 
 #flex2 {
     display: flex;
-    width: 80%;
     margin: 0 auto;
+    justify-content: center;
+    align-content: center;
 
 }
 
@@ -1050,7 +1068,7 @@ footer #copyright {
     #a6:hover {
         -webkit-text-stroke: 1px;
         transition: 0.3s;
-        color: #00FF7F
+        color: #1CB8AB
     }
 
     .sm:hover {
@@ -1357,7 +1375,6 @@ footer #copyright {
 
     div #footercontact {
         margin: 0 10% 0 0;
-        margin-left: 50%;
     }
 
     #flex3 {
