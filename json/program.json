@@ -1,33 +1,28 @@
 [{
     "Day": "Friday",
     "Time": 18.30,
-    "Name": "Adam"
+    "Name": "Adam",
+    "Act": "DJ"
     
 },
  
  {
      "Day": "Friday",
      "Time": 19.30,
-     "Name": "Henriette"
+     "Name": "Henriette",
+     "Act": "Painter"
  },
  
  {
      "Day": "Saturday",
      "Time": 18.00,
-     "Name": "Christian"
+     "Name": "Christian",
+     "Act": "Dancer"
  },
  
  {
      "Day": "Saturday",
      "Time": 19.30,
-     "Name": "Elias"
- },
-
-
-
-
-
-
-
-
-]
+     "Name": "Elias",
+     "Act": "Singer"
+ }]
