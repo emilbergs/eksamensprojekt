@@ -642,7 +642,6 @@ h4 {
 
 
 .headlinerTextAboutUs {
-    background-color: rgba(0 0 0 0.5);
     padding: 4%;
 }
 
@@ -1567,6 +1566,9 @@ footer #copyright {
 @media screen and (min-width: 1450px) {
     #infofot {
         margin: 0 0 0 0%;
+    }
+    #videobtn {
+        margin: 40% 0 0 93%;
     }
 }
 
