@@ -1568,6 +1568,9 @@ footer #copyright {
     #infofot {
         margin: 0 0 0 0%;
     }
+    #videobtn {
+        margin: 40% 0 0 93%;
+    }
 }
 
 @media screen and (min-width: 1600px) {
