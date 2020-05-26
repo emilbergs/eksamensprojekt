@@ -99,8 +99,6 @@ if(video.muted){
 
 }
 
-
-
 // Soundbtn pulsate //
 let videoBTN = document.getElementById("videobtn");
 
