@@ -86,10 +86,20 @@ function changeInput() {
     inputtext.value = "Thank you!";
 }
 
+//Video mute/unmute funktion
+function toggleMute() {
 
-//API
+let video = document.getElementById("videosound")
 
+if(video.muted){
+	video.muted = false;
+} else {
+	video.muted = true;
+}
 
+}
+
+//API for program (Fredag)
 function getFriday() {
     fetch('json/friday.json')
         .then((res) => res.json())
@@ -109,8 +119,7 @@ function getFriday() {
         })
 }
 
-//
-
+//API for program (Lørdag)
 function getSaturday() {
     fetch('json/saturday.json')
         .then((res) => res.json())
@@ -130,6 +139,7 @@ function getSaturday() {
         })
 }
 
+//API forside content billeder/information
 function getImages() {
     fetch('json/images.json')
         .then((res) => res.json())

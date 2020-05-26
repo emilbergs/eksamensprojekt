@@ -63,8 +63,11 @@
         <!--Her slutter vores header og navigationsbar-->
         <main id="index">
             <article>
-                <video src="videos/forside-video.mp4" autoplay muted loop></video>
+               <div id="videounmute">
+                <video id="videosound" src="videos/forside-video.mp4" autoplay muted loop></video>
                 <img src="images/mobile-background2.jpg" alt="background" id="mobile-background">
+                <img class="tabletthings "id="videobtn" src="images/enable-sound.png" onclick="toggleMute();">
+                </div>
                 <h1>THIS YEARS PANORAMA</h1>
                 <img id="billede2021" src="images/2021.png" alt="2021">
                 <section>

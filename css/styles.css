@@ -802,6 +802,16 @@ footer #copyright {
         width: 100%;
         margin-bottom: 5%;
     }
+    
+    #videounmute {
+        display: flex;
+    }
+    
+    #videobtn {
+        position: fixed;
+        width: 5%;
+        margin: 47% 0 0 2%;
+    }
 
     #burgerbar {
         display: block;
@@ -1270,10 +1280,6 @@ footer #copyright {
         width: 50%;
     }
     
-
-    
-
-
     .show {
         display: block;
     }
@@ -1298,6 +1304,11 @@ footer #copyright {
 @media screen and (min-width: 1200px) {
     h1 {
         font-size: 3em;
+    }
+    
+     #videobtn {
+        width: 3%;
+        margin: 45% 0 0 2%;
     }
 
     #section6 {
