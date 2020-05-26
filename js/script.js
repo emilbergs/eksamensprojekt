@@ -99,6 +99,23 @@ if(video.muted){
 
 }
 
+
+
+// Soundbtn pulsate //
+let videoBTN = document.getElementById("videobtn");
+
+
+function pulsateAnima() {
+    if (videoBTN.classList.contains("noanima")){
+      videoBTN.classList.replace("noanima", "pulsate-fwd");  
+    } else {
+        videoBTN.classList.replace("pulsate-fwd", "noanima");
+    }
+}
+// soundsbtn ENDS //
+
+
+
 //API for program (Fredag)
 function getFriday() {
     fetch('json/friday.json')

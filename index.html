@@ -4,14 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Panorama Festival - explore visual art combined with electronic music</title>
-    <link rel="stylesheet" href="css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Visuelkunst, installationskunst, elektronisk musik.">
     <meta name="description" content="Oplev Panorama Festivals musikere og kunstnere som Lunatic, Mendoza, Masthi, Discosmos, Panorama Light Art og Hackstage.">
     <link rel="stylesheet" href="https://use.typekit.net/kzt4cnx.css">
     <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16">
-
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body onload="getImages()">
@@ -66,7 +65,7 @@
                <div id="videounmute">
                 <video id="videosound" src="videos/forside-video.mp4" autoplay muted loop></video>
                 <img src="images/mobile-background2.jpg" alt="background" id="mobile-background">
-                <img class="tabletthings "id="videobtn" src="images/enable-sound.png" onclick="toggleMute();">
+                <img class="tabletthings noanima" id="videobtn" src="images/enable-sound.png" onclick="toggleMute();pulsateAnima();">
                 </div>
                 <h1>THIS YEARS PANORAMA</h1>
                 <img id="billede2021" src="images/2021.png" alt="2021">
